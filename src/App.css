@@ -1,0 +1,8 @@
+.suggestion {
+  padding: 0.25rem 0.2rem;
+  display: inline-block;
+}
+
+.suggestion.selected-suggestion {
+  background-color: #ececec;
+}
