@@ -67,7 +67,7 @@ const App: React.FC = () => {
         new RegExp(`^${lastWord}`),
         ""
       );
-      const updatedInput = inputVal + highestSuggestion;
+      const updatedInput = inputVal + highestSuggestion + " ";
       setInputVal(updatedInput);
       handleInputChange(updatedInput);
     }
